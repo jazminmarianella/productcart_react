@@ -14,12 +14,16 @@ function ProductForm(props: ProductFormProps) {
   const [price, setPrice] = useState(0.00);
 
   function handleClick(){
-    return props.addToList({
+    props.addToList({
       id: -1,
       name: name,
       description: description,
       price: price
     });
+
+    setName("");
+    setDescription("");
+    setPrice(0);
   }
 
   function handleName(event: any){
