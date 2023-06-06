@@ -1,9 +1,7 @@
-.sections {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
+.productForm {
     border: 1px solid #333;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 3px 3px 3px #444;
+    width: 20%;
 }

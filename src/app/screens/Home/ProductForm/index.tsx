@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { Product } from "../../../Types";
 
+import styles from "./styles.module.css";
+
 type ProductFormProps = {
   addToList: (p: Product)=> void;
 };
@@ -33,7 +35,7 @@ function ProductForm(props: ProductFormProps) {
   }
   
   return (
-    <section>
+    <section className={styles.productForm}>
       <h2>Cargar producto</h2>
       <label htmlFor="nombre">
         Nombre: <br />

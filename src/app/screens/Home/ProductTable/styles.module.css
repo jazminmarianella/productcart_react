@@ -1,5 +1,14 @@
+.productTable {
+    border: 1px solid #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px #444;
+    width: 70%;
+}
+
 .productDisplay {
-    width: 100%;
-    display: inline-grid;
-    grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
 }

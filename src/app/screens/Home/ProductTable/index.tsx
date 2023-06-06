@@ -29,7 +29,7 @@ function ProductTable(props: ProductTableProps) {
   }
 
   return (
-    <section>
+    <section className={styles.productTable}>
       <h2>Productos existentes</h2>
       <h4>Total: ${total}</h4>
       <div className={styles.productDisplay}>
