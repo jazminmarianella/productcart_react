@@ -58,7 +58,6 @@ function Home() {
 
   return (
     <main>
-      <h1>App Carrito!</h1>
       <section className={style.sections}>
         <ProductForm addToList={handleAddProduct} />
         <ProductTable products={products} cartItems={cartItems} addToCart={handleAddCartItemList}/>

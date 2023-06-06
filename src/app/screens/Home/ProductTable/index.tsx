@@ -45,7 +45,7 @@ function ProductTable(props: ProductTableProps) {
 
   return (
     <section className={styles.productTable}>
-      <h2>Productos existentes</h2>
+      <h2>Lista de Productos</h2>
       <h4 className={styles.total}><CartIcon/> ${total}</h4>
       <div className={styles.productDisplay}>
         {props.products.map((product) => {
