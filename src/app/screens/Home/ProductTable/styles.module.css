@@ -1,0 +1,5 @@
+.productDisplay {
+    width: 100%;
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
