@@ -43,17 +43,17 @@ function ProductForm(props: ProductFormProps) {
       <h2>Cargar producto</h2>
       <label htmlFor="nombre">
         Nombre: <br />
-        <input type="text" placeholder="Ingrese el nombre del producto" value={name} onChange={handleName}/>
+        <input type="text" value={name} onChange={handleName}/>
       </label>
       <br />
       <label htmlFor="descripcion">
         Descripción: <br />
-        <input type="text" placeholder="Ingrese el nombre del producto" value={description} onChange={handleDescription}/>
+        <input type="text" value={description} onChange={handleDescription}/>
       </label>
       <br />
       <label htmlFor="precio">
         Precio: <br />
-        <input type="number" placeholder="Ingrese el precio del producto" value={price} onChange={handlePrice}/>
+        <input type="number" value={price} onChange={handlePrice}/>
       </label>
       <br />
       <button onClick={handleClick} disabled={!(name!="" && price>0)}>Agregar producto</button>

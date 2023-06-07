@@ -1,9 +1,9 @@
 .productCard {
-    border: 1px solid #fdd;
-    padding: 5px;
-    border-radius: 7px;
+    border: 3px solid #fdd;
+    padding: 30px;
+    border-radius: 30 px;
 }
 
 .countInput {
-    width: 30px;
+    width: 7px;
 }
